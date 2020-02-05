@@ -1,0 +1,7 @@
+cmake_minimum_required(VERSION 2.8)
+project( vibecpp )
+SET(OpenCV_DIR /full/path/OpenCV-3.4/share/OpenCV)
+find_package( OpenCV REQUIRED )
+include_directories( ${OpenCV_INCLUDE_DIRS} )
+add_executable( vibecpp main.cpp bgfg_vibe.cpp bgfg_vibe.hpp)
+target_link_libraries( vibecpp ${OpenCV_LIBS} )
