@@ -18,4 +18,4 @@ $ make
 $ vibecpp file.mp4
 ```
 
-
+Note: the algorigthm itself is covered by several patents.
